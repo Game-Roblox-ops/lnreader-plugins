@@ -625,3 +625,4 @@ class WTRLAB implements Plugin.PluginBase {
 
     for (const src of srcs) {
       const code = await fetchApi(`${this.site}${src}`)
+ 
